@@ -1,0 +1,46 @@
+html {
+  font-family: sans-serif;
+}
+.cal-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+label {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(61, 61, 61);
+}
+input {
+  height: 30px;
+  font-size: 18px;
+  margin-top: 10px;
+  outline: rgb(61, 61, 61);
+}
+select {
+  height: 30px;
+  font-size: 18px;
+  margin-top: 10px;
+  outline: rgb(61, 61, 61);
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(61, 61, 61);
+}
+.answer {
+  width: 50%;
+  border: 1px rgb(61, 61, 61) solid;
+  height: 36px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+p {
+  vertical-align: middle;
+  display: flex;
+  align-self: center;
+  margin: 10px;
+}
